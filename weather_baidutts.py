@@ -53,7 +53,7 @@ def retest(html):
 
 def tts(weather):
     #+" 湿度"weather[1]
-    text="强哥 早上好 该起床啦"+"今天空气质量指数 是"+str(weather[0])+" 风力 为"+str(weather[2])+" 肚子提醒你，"+str(weather[3])
+    text="早上好 "+"今天空气质量指数 是"+str(weather[0])+" 风力 为"+str(weather[2])+" 肚子提醒你，"+str(weather[3])
     headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit'
                           '/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safar'
